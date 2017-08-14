@@ -1,0 +1,4 @@
+loadbalancer ansible_connection=local
+
+[workers]
+worker[1:2] ansible_connection=local
